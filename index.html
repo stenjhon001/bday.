@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+            color: #f0f0f0;
+        }
+        .password-screen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #1a1a2e;
+        }
+        .password-screen input {
+            padding: 10px;
+            font-size: 1rem;
+            border: 2px solid #ff7675;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .password-screen button {
+            background: #ff7675;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .password-screen button:hover {
+            background: #d63031;
+        }
+        #content {
+            display: none;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(30, 30, 50, 0.9);
+        }
+        header h1 {
+            color: #ff7675;
+            font-size: 3rem;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: rgba(40, 40, 60, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        section h2 {
+            color: #ffeaa7;
+            font-size: 2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(30, 30, 50, 0.9);
+        }
+    </style>
+    <script>
+        function unlockSite() {
+            const password = document.getElementById('password').value;
+            if (password === '04102024') {
+                document.querySelector('.password-screen').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+            } else {
+                alert('Incorrect Password!');
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="password-screen">
+    <div>
+        <input type="password" id="password" placeholder="Enter Password">
+        <button onclick="unlockSite()">Unlock</button>
+    </div>
+</div>
+
+<div id="content">
+    <header>
+        <h1>Happy Birthday, My Love!</h1>
+        <p>A special gift from my heart to yours. 🎁💖</p>
+    </header>
+
+    <section>
+        <h2>Our Journey</h2>
+        <p><strong>January 2024:</strong> We met in a coding class, and little did I know my life was about to change forever. 💻❤️</p>
+        <p><strong>October 4, 2024:</strong> The day you confessed your love and made my world brighter. 🌟</p>
+        <p>From the first kiss during a power cut to every little moment we’ve shared, you’ve made me the happiest person alive. 💋✨</p>
+    </section>
+
+    <section>
+        <h2>A Love Letter</h2>
+        <p>My dearest love,</p>
+        <p>Every day with you is a blessing. Your kindness, care, and love fill my life with joy. Thank you for being my everything. 💕</p>
+        <p>Happy Birthday, my love. Here's to many more magical moments together. 🥂</p>
+    </section>
+
+    <section>
+        <h2>Special Memories</h2>
+        <p>Here are some of the moments that will forever be in my heart:</p>
+        <ul>
+            <li>Our first laugh together in class. 😂</li>
+            <li>That rain makes the perfect moment during the certificate distribution, but we couldn’t grab it. 🌧️</li>
+            <li>All the quiet moments where just being near you was enough (especially during the net issue). 💞</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Romantic Poems</h2>
+        <p>"In your eyes, I see my home,</p>
+        Where love resides, and I’m never alone.</p>
+        In your arms, I find my peace,</p>
+        A love so strong, it will never cease."</p>
+
+        <p>"You are the melody to my song,</p>
+        With you, my love, I belong.</p>
+        Through every storm, through every strife,</p>
+        You are my world, my heart, my life."</p>
+    </section>
+
+    <section>
+        
+          <h4> Happy Birthday, My Love! ❤️🎂 </h4>  
+            <p>
+
+Today, I celebrate not just the day you were born but the beautiful soul that you are. From the moment you walked into my life, everything changed for the better. You are my sunshine on cloudy days, my strength when I feel weak, and my joy in every moment we share.
+
+I cherish the way you care for me, your gentle heart, and the way you make me feel like the most special person in the world. Our journey together, from our first meeting to every little moment, has been nothing short of magical. You’ve shown me what true love feels like, and I’m forever grateful to call you mine.
+
+As we celebrate you today, know that my heart is overflowing with love and gratitude for you. I wish for your happiness to grow, your dreams to come true, and our love to deepen with each passing day.
+
+Here’s to many more birthdays together, my darling, and a lifetime of love, laughter, and unforgettable memories.
+
+You are my everything, and I love you more than words can ever express. 💕🌹<br><br>
+
+With all my love,<br>
+Your Forever Partner ❤️
+        </p>
+    </section>
+
+    <footer>
+        <p>Made with endless love for the one who holds my heart. 💖</p>
+        <p>Happy Birthday, my soulmate! 🎂🌹</p>
+    </footer>
+</div>
+
+</body>
+</html>
